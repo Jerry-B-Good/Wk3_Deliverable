@@ -13,6 +13,7 @@ Console.WriteLine($"The autofill: {showPW}\n");
 Console.WriteLine("Now she must spot and change the wrong characters.\n");
 
 Console.WriteLine("Can you guess Shelly's correct password?");
+Console.WriteLine("HINT: A widely familiar pairing with Shelly's username--Hello--perhaps?\n");
 foreach (char item in Hello)
 {
     char[] realPW = ['\u0057', '\u006F', '\u0072', '\u006C', '\u0064', '\u0021'];
